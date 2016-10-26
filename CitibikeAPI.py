@@ -20,16 +20,13 @@ class CitibikeAPI(object):
             Thread.__init__(self)
             self.URL = URL
             self.interval = interval
-
             self.system_regions = {}
             self.station_information = {}
             self.station_status = {}
             self.system_information = {}
             self.system_alerts = {}
-
             self.t1 = time.asctime()
             self.stopped = False
-
             self.initialCall()
 
         def initialCall(self):
