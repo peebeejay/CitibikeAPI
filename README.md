@@ -1,6 +1,6 @@
 # Citibike-API-Wrapper
 
-A library of simple functions used to interact with the Citibike API. Contains a background process to ensure quick delivery of data
+A library of simple functions for interaction with the Citibike API. Contains a continuously-running background process to ensure quick delivery of up-to-date data
 
 # How to Use
 
